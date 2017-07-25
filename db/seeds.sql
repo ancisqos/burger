@@ -1,8 +1,8 @@
-INSERT INTO burgers (burger_name)
-VALUES ("Fuddruckers Kobe Beef Burger");
+INSERT INTO burgers (burger_name, devoured)
+VALUES ("Fuddruckers Kobe Beef Burger", FALSE);
 
-INSERT INTO burgers (burger_name)
-VALUES ("Mozzarella Marinara Burger");
+INSERT INTO burgers (burger_name, devoured)
+VALUES ("Mozzarella Marinara Burger", FALSE);
 
-INSERT INTO burgers (burger_name)
-VALUES ("Bacon Cheeseburger");
+INSERT INTO burgers (burger_name, devoured)
+VALUES ("Bacon Cheeseburger", FALSE);

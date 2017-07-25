@@ -1,3 +1,5 @@
+// connection.js holds all of mysql connection data
+
 const mysql = require('mysql');
 
 const connection = mysql.createConnection({
@@ -15,4 +17,5 @@ connection.connect(function(err){
 	console.log("connected as id " + connection.threadId);
 });
 
+// export connection to be imported in orm.js
 module.exports = connection;

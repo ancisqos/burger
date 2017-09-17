@@ -31,11 +31,3 @@ const orm = {
 }
 
 module.exports = orm;
-
-
-	// selectAll ()
-	// // orm.all
-	// insertOne ()
-	// // orm.create
-	// updateOne ()
-	// // orm.update

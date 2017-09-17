@@ -24,7 +24,7 @@ app.use('/', routes);
 var PORT = process.env.PORT || 3000;
 app.listen(PORT);
 
-// Sets up Express App
-// =====================================================
-// const app = express();
-// const PORT = 3000;
+Sets up Express App
+=====================================================
+const app = express();
+const PORT = 3000;

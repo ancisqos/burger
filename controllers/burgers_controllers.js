@@ -25,4 +25,4 @@ router.post('/burgers/create', function(req,res){
 	})
 })
 
-module.exports = 
+module.exports = router;
